@@ -1,0 +1,20 @@
+# GitHub Actions Runner (The cause of your error)
+actions-runner/
+_diag/
+_work/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# Nginx SSL (Keep your private keys off GitHub!)
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# Docker
+.docker/
