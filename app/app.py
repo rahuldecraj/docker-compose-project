@@ -8,7 +8,7 @@ REQUEST_COUNT = Counter('request_count', 'Total Request Count')
 @app.route('/')
 def home():
     REQUEST_COUNT.inc()
-    return "Hello, DevOps World!!!"
+    return "Hello, DevOps Fully Automated World !!!"
 
 if __name__ == '__main__':
     start_http_server(8000)  # metrics on port 8000
